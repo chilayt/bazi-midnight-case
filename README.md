@@ -26,3 +26,5 @@ If you maintain a BaZi tool, can you reproduce this input and share the rule lab
 这是一个可复算的虚构案例。地点为纽约，当地时间从 1994 年 2 月 4 日 23:40 到 2 月 5 日 00:10。五种设置在整个时段给出的年柱和月柱一致，分别为甲戌和丙寅。日柱和时柱各有两种可能。到 00:10，五种设置的日主都为壬。上表和附带 JSON 记录了三个时间窗口各自的结果。
 
 欢迎用自己的排盘工具复算这个虚构案例，在评论里分享所用的规则和结果。可以附上工具版本、钟表时间或太阳时口径，以及换日界线。
+
+[不知道出生时辰怎么排八字？阅读中文指南](https://bazi-diff.pages.dev/guides/bazi-without-exact-birth-time/zh-hans/?utm_source=github_case&utm_medium=reference&utm_campaign=unknown_birth_time_zh)
