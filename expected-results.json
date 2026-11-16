@@ -1,0 +1,65 @@
+{
+  "case": "New York midnight Day Master comparison",
+  "fictional": true,
+  "city": "New York",
+  "timeZone": "America/New_York",
+  "localStart": "1994-02-04T23:40:00-05:00",
+  "localEnd": "1994-02-05T00:10:00-05:00",
+  "resolutionMinutes": 1,
+  "inclusive": true,
+  "stablePillars": {
+    "year": "甲戌",
+    "month": "丙寅"
+  },
+  "possiblePillarCounts": {
+    "day": 2,
+    "hour": 2
+  },
+  "settings": [
+    "Almanac midnight",
+    "Early Zi",
+    "Exact solar terms",
+    "True solar time",
+    "Late Zi with midnight day change"
+  ],
+  "windows": [
+    {
+      "start": "1994-02-04T23:40",
+      "end": "1994-02-04T23:59",
+      "xin": [
+        "Almanac midnight",
+        "Late Zi with midnight day change"
+      ],
+      "ren": [
+        "Early Zi",
+        "Exact solar terms",
+        "True solar time"
+      ]
+    },
+    {
+      "start": "1994-02-05T00:00",
+      "end": "1994-02-05T00:09",
+      "xin": [
+        "Late Zi with midnight day change"
+      ],
+      "ren": [
+        "Almanac midnight",
+        "Early Zi",
+        "Exact solar terms",
+        "True solar time"
+      ]
+    },
+    {
+      "start": "1994-02-05T00:10",
+      "end": "1994-02-05T00:10",
+      "xin": [],
+      "ren": [
+        "Almanac midnight",
+        "Early Zi",
+        "Exact solar terms",
+        "True solar time",
+        "Late Zi with midnight day change"
+      ]
+    }
+  ]
+}
