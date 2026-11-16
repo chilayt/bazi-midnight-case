@@ -4,6 +4,8 @@ A fictional birth-time range in New York shows how a midnight boundary can affec
 
 [Run the exact example in Bazi Diff](https://bazi-diff.pages.dev/chart/?time=range&example=range&utm_source=github_case&utm_medium=reference&utm_campaign=midnight_case#compare). You can open **See the checks for 3 time windows** to reproduce the table.
 
+[Download the 22-second video walkthrough](https://github.com/chilayt/bazi-midnight-case/releases/download/midnight-demo-v1/Bazi-Diff-Birth-Time-Demo.mp4).
+
 ## Inputs and expected outputs
 
 - Birth city and clock: New York, local civil time (UTC−05:00).
