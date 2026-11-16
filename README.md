@@ -19,12 +19,12 @@ A fictional birth-time range in New York shows how a midnight boundary can affec
 
 The setting names are the labels Bazi Diff displays. Other tools may package their rules differently. Agreement is specific to the input interval and settings checked. The example is fictional and contains no personal birth data. See the [rule comparison guide](https://bazi-diff.pages.dev/guides/why-bazi-calculators-disagree/) for the related clock and day-change conventions.
 
-If you maintain a BaZi tool, can you reproduce this input and share the rule labels, software version, clock basis and day-change convention you used? Which setting would you document first to make differences easier to explain? You can comment on this note with just the results for the fictional inputs.
+If you maintain a BaZi tool, can you reproduce this input and share the rule labels, software version, clock basis and day-change convention you used? Which setting would you document first to make differences easier to explain? [Share your observations in the open trial](https://github.com/chilayt/bazi-midnight-case/issues/1) using just the fictional inputs.
 
 ## 中文说明
 
 这是一个可复算的虚构案例。地点为纽约，当地时间从 1994 年 2 月 4 日 23:40 到 2 月 5 日 00:10。五种设置在整个时段给出的年柱和月柱一致，分别为甲戌和丙寅。日柱和时柱各有两种可能。到 00:10，五种设置的日主都为壬。上表和附带 JSON 记录了三个时间窗口各自的结果。
 
-欢迎用自己的排盘工具复算这个虚构案例，在评论里分享所用的规则和结果。可以附上工具版本、钟表时间或太阳时口径，以及换日界线。
+欢迎用自己的排盘工具复算这个虚构案例，并在[公开试用帖](https://github.com/chilayt/bazi-midnight-case/issues/1)分享所用的规则和结果。可以附上工具版本、钟表时间或太阳时口径，以及换日界线。
 
 [不知道出生时辰怎么排八字？阅读中文指南](https://bazi-diff.pages.dev/guides/bazi-without-exact-birth-time/zh-hans/?utm_source=github_case&utm_medium=reference&utm_campaign=unknown_birth_time_zh)
