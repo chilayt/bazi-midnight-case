@@ -21,6 +21,26 @@ The setting names are the labels Bazi Diff displays. Other tools may package the
 
 If you maintain a BaZi tool, can you reproduce this input and share the rule labels, software version, clock basis and day-change convention you used? Which setting would you document first to make differences easier to explain? [Share your observations in the open trial](https://github.com/chilayt/bazi-midnight-case/issues/1) using just the fictional inputs.
 
+## Cross-check with BaZi Atlas
+
+[BaZi Atlas](https://github.com/bazi-atlas/bazi-engine/tree/d494d532cf2f71eb716571956b10255021c24b33) was run with New York local clock fields, an explicit UTC−05:00 offset and solar-time adjustment off. This uses the engine's two documented day-switch settings.
+
+| Local clock | BaZi Atlas 23:00 switch (sect 1) | BaZi Atlas midnight switch (sect 2) |
+| --- | --- | --- |
+| Feb 4, 23:40–23:59 | 壬戌, Ren | 辛酉, Xin |
+| Feb 5, 00:00–00:10 | 壬戌, Ren | 壬戌, Ren |
+
+Those two switches agree from 00:00 in BaZi Atlas. The five-setting Bazi Diff example above includes a setting that still gives Xin through 00:09. The tools share a lunar-javascript dependency. The comparison shows how the selected settings affect this case.
+
+Clone the linked engine, check out `d494d532cf2f71eb716571956b10255021c24b33`, and run `npm ci --ignore-scripts` in that checkout. From this case repository, run the script with the path to the engine entry point:
+
+```sh
+node compare-bazi-atlas.mjs ../bazi-engine/engine.mjs
+```
+
+The script prints one JSON row per local minute. Each row includes the four pillars and Day Master for both settings.
+
+
 ## 中文说明
 
 这是一个可复算的虚构案例。地点为纽约，当地时间从 1994 年 2 月 4 日 23:40 到 2 月 5 日 00:10。五种设置在整个时段给出的年柱和月柱一致，分别为甲戌和丙寅。日柱和时柱各有两种可能。到 00:10，五种设置的日主都为壬。上表和附带 JSON 记录了三个时间窗口各自的结果。
