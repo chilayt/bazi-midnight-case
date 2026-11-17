@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#102722">
+  <title>找出日主 · Bazi Diff</title>
+  <link rel="stylesheet" href="../../style.css">
+  <script src="../exercise.js" defer></script>
+</head>
+<body>
+  <main class="exercise">
+    <h1>找出日主</h1>
+    <p class="intro">下面是一张虚构的八字盘。日柱上面的字就是日主。你能找出来吗？</p>
+    <dl class="pillars" aria-label="八字样例">
+      <div><dt>年柱</dt><dd lang="zh-Hans"><span>庚</span><span>午</span></dd></div>
+      <div><dt>月柱</dt><dd lang="zh-Hans"><span>壬</span><span>午</span></dd></div>
+      <div><dt>日柱</dt><dd lang="zh-Hans"><span>辛</span><span>亥</span></dd></div>
+      <div><dt>时柱</dt><dd lang="zh-Hans"><span>甲</span><span>午</span></dd></div>
+    </dl>
+    <div class="choices" role="group" aria-label="选择日主" hidden>
+      <button type="button" data-explanation="答对了。日柱上面的「辛」就是日主，辛为阴金。" aria-pressed="false">辛</button>
+      <button type="button" data-explanation="年柱下面的「午」对应生肖马。再看看日柱上面的字。" aria-pressed="false">午</button>
+    </div>
+    <p class="answer" id="answer" role="status"></p>
+    <noscript><p>日主是日柱上面的「辛」，属阴金。年柱下面的「午」对应生肖马。</p></noscript>
+    <a class="action" href="https://bazi-diff.pages.dev/chart/?reading=zh&amp;utm_source=partner_embed&amp;utm_medium=referral&amp;utm_campaign=day_master#compare" target="_blank" rel="noopener noreferrer">排盘查我的日主</a>
+  </main>
+</body>
+</html>

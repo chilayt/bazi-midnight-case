@@ -12,6 +12,8 @@ A fictional birth-time range in New York shows how a midnight boundary can affec
 
 [Try the embeddable exercise](https://chilayt.github.io/bazi-midnight-case/) to find the Day Master in a fictional daytime chart. The public page includes an iframe snippet that teachers and site owners can paste into a lesson.
 
+[中文日主小测与嵌入代码](https://chilayt.github.io/bazi-midnight-case/zh-hans/)
+
 ## Inputs and expected outputs
 
 - Birth city and clock: New York, local civil time (UTC−05:00).
