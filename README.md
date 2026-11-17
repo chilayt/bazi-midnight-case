@@ -6,6 +6,8 @@ Pick a chart to run with fictional birth data. Each example opens in the browser
 - **BaZi Day Master and work style** · [Read the example chart](https://bazi-diff.pages.dev/chart/?example=zodiac&utm_source=github_case&utm_medium=reference&utm_campaign=career_example#comparison). Find the Day Master and the free work-style interpretation drawn from the chart.
 - **Date only** · [Compare a full day of possible birth times](https://bazi-diff.pages.dev/chart/?time=range&example=date&utm_source=github_case&utm_medium=reference&utm_campaign=date_only_example#compare). See which pillars stay fixed and which depend on the time.
 
+[See what BaZi and Zi Wei Dou Shu show for the same fictional birthday](https://bazi-diff.pages.dev/guides/ziwei-career-palace/?utm_source=github_case&utm_medium=reference&utm_campaign=career_comparison#bazi-or-ziwei).
+
 ## BaZi around midnight · a reproducible Four Pillars case
 
 A fictional birth-time range in New York shows how a midnight boundary can affect a BaZi chart. For February 4–5, 1994, from 23:40 to 00:10 local time, the year and month pillars stayed consistent in all five Bazi Diff settings. The day and hour pillars had two possible values each. At 00:10 all five settings gave Ren (Yang Water) as the Day Master.
