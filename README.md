@@ -8,6 +8,8 @@ A fictional birth-time range in New York shows how a midnight boundary can affec
 
 [Read the work-style interpretation of this same case](https://bazi-diff.pages.dev/guides/bazi-career-reading/?utm_source=github_case&utm_medium=reference&utm_campaign=career_reading#rough-time), or [read it in Chinese](https://bazi-diff.pages.dev/guides/bazi-career-reading/zh-hans/?utm_source=github_case&utm_medium=reference&utm_campaign=career_reading#rough-time). The month stem stays fixed. A change in the Day Master changes how the two stems relate and which work prompt the tool shows.
 
+If you only know the birth date, [run a full-day comparison](https://bazi-diff.pages.dev/chart/?time=range&example=date&utm_source=github_case&utm_medium=reference&utm_campaign=date_only#compare). This fictional June 15, 1990 case in New York checks 1,440 possible clock minutes. The year and month pillars stay the same, and three Day Masters are possible. [中文全天算例](https://bazi-diff.pages.dev/chart/?time=range&example=date&reading=zh&utm_source=github_case&utm_medium=reference&utm_campaign=date_only_zh#compare)。
+
 ## A Day Master exercise for lessons and reference pages
 
 [Try the embeddable exercise](https://chilayt.github.io/bazi-midnight-case/) to find the Day Master in a fictional daytime chart. The public page includes an iframe snippet that teachers and site owners can paste into a lesson.
