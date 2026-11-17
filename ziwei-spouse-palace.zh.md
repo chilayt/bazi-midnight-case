@@ -15,7 +15,7 @@
 
 ## 在网页上复算
 
-[直接跑午时算例](https://bazi-diff.pages.dev/tools/ziwei/?example=demo&utm_source=github_case&utm_medium=reference&utm_campaign=ziwei_palace_case#ziwei-result)。在结果中展开 **从夫妻宫看关系**，也可以在十二宫列表里找到同一个宫位。其他三组可在[空白排盘](https://bazi-diff.pages.dev/tools/ziwei/?utm_source=github_case&utm_medium=reference&utm_campaign=ziwei_palace_case)中按表输入。
+[直接跑午时算例](https://bazi-diff.pages.dev/tools/ziwei/?example=demo&utm_source=github_case&utm_medium=reference&utm_campaign=ziwei_palace_case#ziwei-result)。在结果中展开 **从夫妻宫看关系**，也可以在十二宫列表里找到同一个宫位。也可以[直接跑丑时算例](https://bazi-diff.pages.dev/tools/ziwei/?example=early&utm_source=github_case&utm_medium=reference&utm_campaign=ziwei_palace_case#ziwei-result)。剩下两组可在[空白排盘](https://bazi-diff.pages.dev/tools/ziwei/?utm_source=github_case&utm_medium=reference&utm_campaign=ziwei_palace_case)中按表输入。
 
 ## 用 Node.js 复算
 
