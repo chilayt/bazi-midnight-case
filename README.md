@@ -1,5 +1,7 @@
 # BaZi and Zi Wei Dou Shu · free worked examples
 
+[简体中文试算入口](README.zh-Hans.md)
+
 Pick a chart to run with fictional birth data. Each example opens in the browser and needs no account.
 
 - **Zi Wei Dou Shu** · [Open the English twelve-palace chart](https://bazi-diff.pages.dev/tools/ziwei/en/?example=demo&utm_source=github_case&utm_medium=reference&utm_campaign=ziwei_career_example#ziwei-result). Find the Career Palace and its two major stars.
