@@ -88,3 +88,7 @@ python verify-civil-day-pillars.py
 欢迎用自己的排盘工具复算这个虚构案例，并在[公开试用帖](https://github.com/chilayt/bazi-midnight-case/issues/1)分享所用的规则和结果。可以附上工具版本、钟表时间或太阳时口径，以及换日界线。
 
 [不知道出生时辰怎么排八字？阅读中文指南](https://bazi-diff.pages.dev/guides/bazi-without-exact-birth-time/zh-hans/?utm_source=github_case&utm_medium=reference&utm_campaign=unknown_birth_time_zh)
+
+### 同一张盘，为什么会有两条工作解读？
+
+这个时段的月干都是丙。日干为辛时，月干相对日干为正官，解读会问明确的职责怎样影响你的工作。日干为壬时，这个关系变成偏财，解读会问你是否更喜欢成果可衡量的工作。[打开中文试算，查看两条解读和盘面依据](https://bazi-diff.pages.dev/chart/?time=range&example=range&reading=zh&utm_source=github_case&utm_medium=reference&utm_campaign=career_reading_zh#compare)。
