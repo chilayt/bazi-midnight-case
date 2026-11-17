@@ -32,6 +32,8 @@ If you only know the birth date, [run a full-day comparison](https://bazi-diff.p
 
 Compare the Spouse Palace branch and main stars for four fictional clock times with iztro 2.6.5. The case includes browser and Node.js instructions. [中文紫微夫妻宫复算](ziwei-spouse-palace.zh.md)
 
+[Try the English Spouse Palace example](https://bazi-diff.pages.dev/tools/ziwei/en/?utm_source=github_case&utm_medium=reference&utm_campaign=ziwei_spouse_case#ziwei-hour-title). On the same fictional date, Ox hour gives Mao with Tai Yang and Tian Liang, and Horse hour gives Xu with Po Jun. Both charts can be calculated in the browser.
+
 The [English Career Palace guide](https://bazi-diff.pages.dev/guides/ziwei-career-palace/?utm_source=github_case&utm_medium=reference&utm_campaign=ziwei_career_guide) uses the same fictional date to show a palace with and without major stars. Both examples run in the [English Zi Wei Dou Shu calculator](https://bazi-diff.pages.dev/tools/ziwei/en/?utm_source=github_case&utm_medium=reference&utm_campaign=ziwei_en); you can also enter your own known birth-hour interval.
 
 ## Inputs and expected outputs
