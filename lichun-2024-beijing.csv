@@ -1,0 +1,4 @@
+local_time,timezone,date_based_year,date_based_month,exact_year,exact_month,day,hour
+2024-02-04T00:00:00+08:00,Asia/Shanghai,甲辰,丙寅,癸卯,乙丑,戊戌,壬子
+2024-02-04T16:26:00+08:00,Asia/Shanghai,甲辰,丙寅,癸卯,乙丑,戊戌,庚申
+2024-02-04T16:28:00+08:00,Asia/Shanghai,甲辰,丙寅,甲辰,丙寅,戊戌,庚申

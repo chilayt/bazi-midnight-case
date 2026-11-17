@@ -8,6 +8,7 @@
 | [看八字工作方式解读](https://bazi-diff.pages.dev/chart/zh-hans/?example=zodiac&utm_source=github_case&utm_medium=reference&utm_campaign=zh_start#comparison) | 找到日主，再用一条工作方式提示对照自己的经历。 |
 | [找紫微斗数官禄宫](https://bazi-diff.pages.dev/guides/ziwei-career-palace/zh-hans/?utm_source=github_case&utm_medium=reference&utm_campaign=zh_start#examples) | 对比同一天的丑时与午时。丑时官禄宫在酉，无主星。午时在辰，主星为紫微、天相。 |
 | [两个排盘结果不一样，怎么查](https://bazi-diff.pages.dev/guides/why-bazi-calculators-disagree/zh-hans/?utm_source=github_case&utm_medium=reference&utm_campaign=zh_disagree) | 按变化的柱复跑三个算例，区分真太阳时、换日和交节的差异。 |
+| [立春前后怎么换年柱、月柱](lichun-2024-beijing.zh.md) | 对照北京三个虚构排盘时刻，下载 CSV 或在浏览器复跑。 |
 
 [用自己的资料排八字](https://bazi-diff.pages.dev/chart/zh-hans/?time=range&utm_source=github_case&utm_medium=reference&utm_campaign=zh_start#compare) · [排自己的紫微命盘](https://bazi-diff.pages.dev/tools/ziwei/?utm_source=github_case&utm_medium=reference&utm_campaign=zh_start)
 
