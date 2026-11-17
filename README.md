@@ -16,6 +16,10 @@ If you only know the birth date, [run a full-day comparison](https://bazi-diff.p
 
 [中文日主小测与嵌入代码](https://chilayt.github.io/bazi-midnight-case/zh-hans/)
 
+## Reproduce a Zi Wei Dou Shu chart
+
+Compare the Spouse Palace branch and main stars for four fictional clock times with iztro 2.6.5. The case includes browser and Node.js instructions. [中文紫微夫妻宫复算](ziwei-spouse-palace.zh.md)
+
 ## Inputs and expected outputs
 
 - Birth city and clock: New York, local civil time (UTC−05:00).
