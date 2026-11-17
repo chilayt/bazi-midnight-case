@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#102722">
+  <title>Find the Day Master · Bazi Diff</title>
+  <link rel="stylesheet" href="../style.css">
+  <script src="exercise.js" defer></script>
+</head>
+<body>
+  <main class="exercise">
+    <h1>Find the Day Master</h1>
+    <p class="intro">Look for the upper character in the Day column of this fictional BaZi chart.</p>
+    <dl class="pillars" aria-label="Sample Four Pillars chart">
+      <div><dt>Year</dt><dd lang="zh-Hans"><span>庚</span><span>午</span></dd></div>
+      <div><dt>Month</dt><dd lang="zh-Hans"><span>壬</span><span>午</span></dd></div>
+      <div><dt>Day</dt><dd lang="zh-Hans"><span>辛</span><span>亥</span></dd></div>
+      <div><dt>Hour</dt><dd lang="zh-Hans"><span>甲</span><span>午</span></dd></div>
+    </dl>
+    <div class="choices" role="group" aria-label="Choose the Day Master" hidden>
+      <button type="button" data-choice="xin" aria-pressed="false"><span lang="zh-Hans">辛</span> Xin</button>
+      <button type="button" data-choice="wu" aria-pressed="false"><span lang="zh-Hans">午</span> Wu</button>
+    </div>
+    <p class="answer" id="answer" role="status"></p>
+    <noscript><p>The Day Master is 辛 (Xin), Yin Metal. 午 (Wu) represents the Horse in the Year column.</p></noscript>
+    <a class="action" href="https://bazi-diff.pages.dev/chart/?utm_source=partner_embed&amp;utm_medium=referral&amp;utm_campaign=day_master#compare" target="_blank" rel="noopener noreferrer">Find my Day Master on Bazi Diff</a>
+  </main>
+</body>
+</html>

@@ -1,0 +1,111 @@
+* { box-sizing: border-box; }
+
+:root {
+  color-scheme: light;
+  --ink: #152c28;
+  --paper: #f2f3e9;
+  --wash: #e2ebe2;
+  --line: #b4c7bc;
+  --accent: #205452;
+  --night: #102722;
+  font: 1rem/1.48 system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background: var(--paper);
+}
+
+h1, h2 {
+  margin: 0;
+  font: 500 1.85rem/1.12 Georgia, serif;
+  text-wrap: balance;
+}
+
+h2 { font-size: 1.5rem; }
+p { margin: .7rem 0; }
+
+.exercise {
+  max-inline-size: 32rem;
+  margin-inline: auto;
+  padding: clamp(.85rem, 4vw, 1.4rem);
+}
+
+.intro { max-inline-size: 42ch; }
+
+.pillars {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: .28rem;
+  margin-block: .9rem;
+}
+
+.pillars div {
+  border: 1px solid var(--line);
+  padding: .35rem .1rem;
+  text-align: center;
+}
+
+.pillars dt { font-size: .82rem; font-weight: 700; overflow-wrap: anywhere; }
+.pillars dd {
+  display: grid;
+  margin: .25rem 0 0;
+  font: 1.48rem/1.24 "Noto Serif CJK SC", "Microsoft YaHei", serif;
+}
+
+.choices { display: flex; flex-wrap: wrap; gap: .55rem; }
+.choices[hidden] { display: none; }
+.answer:empty { margin: 0; }
+
+.choices button, .action {
+  min-block-size: 44px;
+  border: 1px solid var(--accent);
+  border-radius: .45rem;
+  padding: .55rem .72rem;
+  color: var(--ink);
+  background: var(--wash);
+  font: inherit;
+  font-weight: 650;
+}
+
+.choices button { cursor: pointer; }
+.choices button:hover { background: #cddfd2; }
+.choices button[aria-pressed="true"], .action { color: white; background: var(--accent); }
+.action {
+  display: inline-block;
+  margin-block-start: .45rem;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+.action:hover { background: var(--night); }
+
+:where(a, button):focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.publisher {
+  max-inline-size: 46rem;
+  margin-inline: auto;
+  padding: clamp(1rem, 5vw, 2.5rem);
+}
+
+.publisher h2 { margin-block-start: 1.5rem; }
+.publisher a { color: var(--accent); }
+.publisher iframe {
+  display: block;
+  inline-size: 100%;
+  max-inline-size: 32rem;
+  block-size: 34rem;
+  margin-block: 1rem;
+  border: 1px solid var(--line);
+  border-radius: .65rem;
+}
+
+.publisher pre {
+  max-inline-size: 100%;
+  padding: 1rem;
+  background: var(--wash);
+  overflow-x: auto;
+}
