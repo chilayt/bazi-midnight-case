@@ -6,6 +6,8 @@ A fictional birth-time range in New York shows how a midnight boundary can affec
 
 [Download the 22-second video walkthrough](https://github.com/chilayt/bazi-midnight-case/releases/download/midnight-demo-v1/Bazi-Diff-Birth-Time-Demo.mp4).
 
+[Read the work-style interpretation of this same case](https://bazi-diff.pages.dev/guides/bazi-career-reading/?utm_source=github_case&utm_medium=reference&utm_campaign=career_reading#rough-time), or [read it in Chinese](https://bazi-diff.pages.dev/guides/bazi-career-reading/zh-hans/?utm_source=github_case&utm_medium=reference&utm_campaign=career_reading#rough-time). The month stem stays fixed. A change in the Day Master changes how the two stems relate and which work prompt the tool shows.
+
 ## Inputs and expected outputs
 
 - Birth city and clock: New York, local civil time (UTC−05:00).
