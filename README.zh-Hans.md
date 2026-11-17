@@ -7,6 +7,7 @@
 | [只知道日期，试算全天](https://bazi-diff.pages.dev/chart/zh-hans/?time=range&example=date&utm_source=github_case&utm_medium=reference&utm_campaign=zh_start#compare) | 比较同一天不同出生时刻，区分稳定的四柱和会变的部分。纽约虚构算例中，年柱和月柱保持一致。 |
 | [看八字工作方式解读](https://bazi-diff.pages.dev/chart/zh-hans/?example=zodiac&utm_source=github_case&utm_medium=reference&utm_campaign=zh_start#comparison) | 找到日主，再用一条工作方式提示对照自己的经历。 |
 | [找紫微斗数官禄宫](https://bazi-diff.pages.dev/guides/ziwei-career-palace/zh-hans/?utm_source=github_case&utm_medium=reference&utm_campaign=zh_start#examples) | 对比同一天的丑时与午时。丑时官禄宫在酉，无主星。午时在辰，主星为紫微、天相。 |
+| [两个排盘结果不一样，怎么查](https://bazi-diff.pages.dev/guides/why-bazi-calculators-disagree/zh-hans/?utm_source=github_case&utm_medium=reference&utm_campaign=zh_disagree) | 按变化的柱复跑三个算例，区分真太阳时、换日和交节的差异。 |
 
 [用自己的资料排八字](https://bazi-diff.pages.dev/chart/zh-hans/?time=range&utm_source=github_case&utm_medium=reference&utm_campaign=zh_start#compare) · [排自己的紫微命盘](https://bazi-diff.pages.dev/tools/ziwei/?utm_source=github_case&utm_medium=reference&utm_campaign=zh_start)
 
