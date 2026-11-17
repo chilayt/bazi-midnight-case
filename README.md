@@ -43,6 +43,19 @@ node compare-bazi-atlas.mjs ../bazi-engine/engine.mjs
 The script prints one JSON row per local minute. Each row includes the four pillars and Day Master for both settings.
 
 
+## Cross-check with Jade Almanac's public dataset
+
+[Jade Almanac's BaZi convention audit v1.2.1](https://jadealmanac.com/bazi-calculator/conventions) includes two published CC0 clock-field probes for June 15, 1990. We ran the same clock fields through two Bazi Diff day-change settings with solar correction off and an explicit UTC+08:00 test offset. The offset is used here to isolate the rollover comparison.
+
+| Probe | Clock fields | Bazi Diff midnight switch | Bazi Diff 23:00 switch | Published Jade Almanac result |
+| --- | --- | --- | --- | --- |
+| B2, control | 22:30 | 辛亥, Xin | 辛亥, Xin | 辛亥, Xin |
+| B1, late Zi | 23:30 | 辛亥, Xin | 壬子, Ren | 壬子, Ren |
+
+These rows compare day pillars from fixed clock fields. The audit's Jade Almanac observations used its no-city path. A real birth in Beijing on that date requires historical daylight-saving handling. The separate New York example above compares a date-crossing interval under five settings.
+
+Run `node compare-jade-almanac.mjs` on Node.js 18 or later. It checks the dataset version and hashes of the deployed Bazi Diff code before printing the two rows.
+
 ## 中文说明
 
 这是一个可复算的虚构案例。地点为纽约，当地时间从 1994 年 2 月 4 日 23:40 到 2 月 5 日 00:10。五种设置在整个时段给出的年柱和月柱一致，分别为甲戌和丙寅。日柱和时柱各有两种可能。到 00:10，五种设置的日主都为壬。上表和附带 JSON 记录了三个时间窗口各自的结果。
