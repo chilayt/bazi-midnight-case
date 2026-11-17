@@ -2,8 +2,9 @@ import { resolve } from "node:path";
 import { pathToFileURL } from "node:url";
 
 const enginePath = process.argv[2];
+const compareMeanSolar = process.argv[3] === '--mean-solar';
 if (!enginePath) {
-  console.error("Usage: node compare-bazi-atlas.mjs /path/to/bazi-engine/engine.mjs");
+  console.error("Usage: node compare-bazi-atlas.mjs /path/to/bazi-engine/engine.mjs [--mean-solar]");
   process.exit(1);
 }
 
@@ -20,7 +21,7 @@ for (let minuteOffset = 0; minuteOffset <= 30; minuteOffset++) {
     hour: clock.getUTCHours(),
     minute: clock.getUTCMinutes(),
     tzOffsetHours: -5,
-    longitude: null,
+    longitude: compareMeanSolar ? -74 : null,
   };
 
   const settings = [1, 2].map((sect) => {
@@ -29,6 +30,10 @@ for (let minuteOffset = 0; minuteOffset <= 30; minuteOffset++) {
       sect,
       pillars: [pillars.year, pillars.month, pillars.day, pillars.time].map((pillar) => pillar.ganzhi),
       dayMaster: meta.dayMaster,
+      ...(compareMeanSolar && {
+        meanSolarTime: meta.trueSolarTime,
+        longitudeShiftMinutes: meta.trueSolarOffsetMinutes,
+      }),
     };
   });
   console.log(JSON.stringify({ local: clock.toISOString().slice(0, 16), settings }));

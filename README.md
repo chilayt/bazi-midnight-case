@@ -43,6 +43,18 @@ node compare-bazi-atlas.mjs ../bazi-engine/engine.mjs
 The script prints one JSON row per local minute. Each row includes the four pillars and Day Master for both settings.
 
 
+### Why the solar clocks differ in this case
+
+With both calculators set to longitude 74° west and UTC−05:00, the pinned BaZi Atlas engine applies a +4-minute longitude correction. For this example, Bazi Diff also applies an estimated equation-of-time correction of about −13 minutes 41 seconds, bringing its total shift to −9 minutes 41 seconds. The [U.S. Naval Observatory explains the distinction between mean and apparent solar time](https://aa.usno.navy.mil/faq/eqtime).
+
+| Recorded local time on Feb 5 | BaZi Atlas mean solar time | Bazi Diff estimated apparent solar time | Atlas midnight-rule day pillar | Bazi Diff Late Zi with midnight day change |
+| --- | --- | --- | --- | --- |
+| 00:00 | Feb 5 00:04 | Feb 4 23:50:19 | 壬戌 | 辛酉 |
+| 00:09 | Feb 5 00:13 | Feb 4 23:59:19 | 壬戌 | 辛酉 |
+| 00:10 | Feb 5 00:14 | Feb 5 00:00:19 | 壬戌 | 壬戌 |
+
+Run `node compare-bazi-atlas.mjs ../bazi-engine/engine.mjs --mean-solar` for the Atlas outputs. To inspect the Bazi Diff result, open the example above and expand the rule checks. With the **23:00** day rollover both calculators give 壬戌 at the three times in the table.
+
 ## Cross-check with Jade Almanac's public dataset
 
 [Jade Almanac's BaZi convention audit v1.2.1](https://jadealmanac.com/bazi-calculator/conventions) includes two published CC0 clock-field probes for June 15, 1990. We ran the same clock fields through two Bazi Diff day-change settings with solar correction off and an explicit UTC+08:00 test offset. The offset is used here to isolate the rollover comparison.
