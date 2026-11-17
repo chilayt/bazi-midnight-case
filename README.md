@@ -68,9 +68,20 @@ These rows compare day pillars from fixed clock fields. The audit's Jade Almanac
 
 Run `node compare-jade-almanac.mjs` on Node.js 18 or later. It checks the dataset version and hashes of the deployed Bazi Diff code before printing the two rows.
 
+## Independent civil-date check with sxtwl
+
+[sxtwl](https://github.com/yuangu/sxtwl_cpp) 2.0.7 returns 辛酉 for February 4, 1994 and 壬戌 for February 5. At 23:40 on the local clock, midnight rollover selects February 4 for the day pillar. A 23:00 rollover selects February 5. The script calculates the civil-date pillars. Selecting which date to use is a separate BaZi convention. This check covers the day pillar only.
+
+```sh
+python -m pip install sxtwl==2.0.7
+python verify-civil-day-pillars.py
+```
+
 ## 中文说明
 
 这是一个可复算的虚构案例。地点为纽约，当地时间从 1994 年 2 月 4 日 23:40 到 2 月 5 日 00:10。五种设置在整个时段给出的年柱和月柱一致，分别为甲戌和丙寅。日柱和时柱各有两种可能。到 00:10，五种设置的日主都为壬。上表和附带 JSON 记录了三个时间窗口各自的结果。
+
+寿星天文历 sxtwl 2.0.7 独立复核了公历 2 月 4 日为辛酉、2 月 5 日为壬戌。若当地钟表是 23:40，午夜换日取前者，23:00 换日取后者。脚本可复算两个公历日期的日干支。
 
 欢迎用自己的排盘工具复算这个虚构案例，并在[公开试用帖](https://github.com/chilayt/bazi-midnight-case/issues/1)分享所用的规则和结果。可以附上工具版本、钟表时间或太阳时口径，以及换日界线。
 
