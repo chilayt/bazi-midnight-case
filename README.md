@@ -92,3 +92,7 @@ python verify-civil-day-pillars.py
 ### 同一张盘，为什么会有两条工作解读？
 
 这个时段的月干都是丙。日干为辛时，月干相对日干为正官，解读会问明确的职责怎样影响你的工作。日干为壬时，这个关系变成偏财，解读会问你是否更喜欢成果可衡量的工作。[打开中文试算，查看两条解读和盘面依据](https://bazi-diff.pages.dev/chart/?time=range&example=range&reading=zh&utm_source=github_case&utm_medium=reference&utm_campaign=career_reading_zh#compare)。
+
+### 温哥华的时区数据复查
+
+温哥华在 2026 年停止季节性拨钟。另一个独立案例用四个固定 UTC 时刻检查运行时是否已同步这项规则，并说明如何核对重复或跳过的当地时间。 [时区实测与脚本](vancouver-timezone-2026.zh.md)
