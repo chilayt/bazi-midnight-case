@@ -129,4 +129,4 @@ python verify-civil-day-pillars.py
 
 ### 温哥华的时区数据复查
 
-温哥华在 2026 年停止季节性拨钟。另一个独立案例用四个固定 UTC 时刻检查运行时是否已同步这项规则，并说明如何核对重复或跳过的当地时间。 [时区实测与脚本](vancouver-timezone-2026.zh.md)
+温哥华在 2026 年停止季节性拨钟。另一个独立案例用四个固定 UTC 时刻检查运行时是否已同步这项规则，并说明如何核对重复或跳过的当地时间。 [时区实测与脚本](vancouver-timezone-2026.zh.md) · [Python zoneinfo 的两版时区数据对照](vancouver-zoneinfo-2026.zh.md)
