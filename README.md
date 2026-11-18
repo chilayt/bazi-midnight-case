@@ -11,6 +11,8 @@ Pick a chart to run with fictional birth data. Each example opens in the browser
 
 [See what BaZi and Zi Wei Dou Shu show for the same fictional birthday](https://bazi-diff.pages.dev/guides/ziwei-career-palace/?utm_source=github_case&utm_medium=reference&utm_campaign=career_comparison#bazi-or-ziwei).
 
+New to these traditions? [Compare BaZi and Western birth charts](https://bazi-diff.pages.dev/guides/bazi-vs-western-astrology/?utm_source=github_case&utm_medium=reference&utm_campaign=bazi_western_guide) to see their different layouts and try a fictional BaZi example. The guide does not calculate a Western chart.
+
 ## BaZi around midnight · a reproducible Four Pillars case
 
 A fictional birth-time range in New York shows how a midnight boundary can affect a BaZi chart. For February 4–5, 1994, from 23:40 to 00:10 local time, the year and month pillars stayed consistent in all five Bazi Diff settings. The day and hour pillars had two possible values each. At 00:10 all five settings gave Ren (Yang Water) as the Day Master.
