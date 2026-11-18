@@ -9,6 +9,7 @@
 | [比较两份工作的事业样稿](https://bazi-diff.pages.dev/sample-report/career/zh-hans/?utm_source=github_case&utm_medium=reference&utm_campaign=zh_career_sample) | 对照同一份八字免费解读和虚构岗位详报，看看两道面试追问如何核对工作条件。 |
 | [夫妻宫无主星的两张算例](https://bazi-diff.pages.dev/guides/relationship-reflection/zh-hans/?utm_source=github_case&utm_medium=reference&utm_campaign=spouse_palace_example_zh#relationship-empty-star) | 同为丑时、相差一天的两张虚构命盘，夫妻宫都在卯，主星一栏不同。[告诉我们你看到了什么](https://github.com/chilayt/bazi-midnight-case/issues/2)。 |
 | [找紫微斗数官禄宫](https://bazi-diff.pages.dev/guides/ziwei-career-palace/zh-hans/?utm_source=github_case&utm_medium=reference&utm_campaign=zh_start#examples) | 对比同一天的丑时与午时。丑时官禄宫在酉，无主星。午时在辰，主星为紫微、天相。 |
+| [农历闰月生日怎么排紫微](ziwei-lunar-leap-month.md) | 用闰六月三十核对公历日期，再复算命宫和官禄宫。 |
 | [两个排盘结果不一样，怎么查](https://bazi-diff.pages.dev/guides/why-bazi-calculators-disagree/zh-hans/?utm_source=github_case&utm_medium=reference&utm_campaign=zh_disagree) | 按变化的柱复跑三个算例，区分真太阳时、换日和交节的差异。 |
 | [立春前后怎么换年柱、月柱](lichun-2024-beijing.zh.md) | 对照北京三个虚构排盘时刻，下载 CSV 或在浏览器复跑。 |
 

@@ -40,6 +40,8 @@ Compare the Spouse Palace branch and main stars for four fictional clock times w
 
 The [English Career Palace guide](https://bazi-diff.pages.dev/guides/ziwei-career-palace/?utm_source=github_case&utm_medium=reference&utm_campaign=ziwei_career_guide) uses the same fictional date to show a palace with and without major stars. Both examples run in the [English Zi Wei Dou Shu calculator](https://bazi-diff.pages.dev/tools/ziwei/en/?utm_source=github_case&utm_medium=reference&utm_campaign=ziwei_en); you can also enter your own known birth-hour interval.
 
+[Check a lunar leap-month birthday](ziwei-lunar-leap-month.md#english) with a calendar reference and a reproducible Zi Wei chart.
+
 ## Inputs and expected outputs
 
 - Birth city and clock: New York, local civil time (UTC−05:00).
